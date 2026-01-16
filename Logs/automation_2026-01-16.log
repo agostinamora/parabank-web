@@ -1,0 +1,4 @@
+2026-01-16 16:37:49,804 [INFO] TestLogin: Ejecutando login con usuario inválido
+2026-01-16 16:37:49,804 [INFO] LoginPage: Entrando a la página principal
+2026-01-16 16:37:52,112 [INFO] LoginPage: Login con usuario:  
+2026-01-16 16:37:56,063 [WARNING] LoginPage: Mensaje de error NO visible, aparece este mensaje: An internal error has occurred and has been logged.

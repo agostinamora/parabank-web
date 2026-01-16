@@ -1,0 +1,4 @@
+2026-01-16 16:33:59,472 [INFO] TestLogin: Ejecutando login válido
+2026-01-16 16:33:59,474 [INFO] LoginPage: Entrando a la página principal
+2026-01-16 16:34:02,225 [INFO] LoginPage: Login con usuario: usertest
+2026-01-16 16:34:07,017 [WARNING] LoginPage: Mensaje de bienvenida NO visible, aparece este mensaje: An internal error has occurred and has been logged.
