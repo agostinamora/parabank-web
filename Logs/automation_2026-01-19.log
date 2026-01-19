@@ -1,0 +1,11 @@
+2026-01-19 12:07:33,649 [INFO] TestRegister: Ejecutando registro válido
+2026-01-19 12:07:33,650 [INFO] LoginPage: Entrando a la página principal
+2026-01-19 12:07:37,982 [INFO] LoginPage: Registro de cuenta
+2026-01-19 12:07:38,454 [INFO] LoginPage: Página de registro abierta
+2026-01-19 12:07:38,454 [INFO] RegisterPage: Completando el form
+2026-01-19 12:07:40,585 [INFO] RegisterPage: Registro exitoso: Your account was created successfully. You are now logged in.
+2026-01-19 12:07:40,597 [INFO] TestTransfer: Ejecutando una transacción válida
+2026-01-19 12:07:40,598 [INFO] LoginPage: Entrando a la página principal
+2026-01-19 12:07:40,824 [INFO] TransferPage: Elección de sección de transferencias
+2026-01-19 12:07:41,240 [INFO] TransferPage: Nos encontramos en la página de transfernecias
+2026-01-19 12:07:42,319 [INFO] TransferPage: Tranferencia exitosa: $20000.00

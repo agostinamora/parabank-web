@@ -2,15 +2,16 @@ import pytest
 from Utilities.screenshots import take_screenshot
 from Utilities.logger import get_logger
 from Utilities.driver_factory import get_driver
+from selenium import webdriver
 import pytest
 import pytest_html
 
 logger = get_logger("PytestHooks")
 
-
-@pytest.fixture
+@pytest.fixture(scope="session")
 def driver():
-    driver = get_driver()
+    driver = webdriver.Chrome()
+    driver.maximize_window()
     yield driver
     driver.quit()
 

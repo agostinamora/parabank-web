@@ -12,6 +12,7 @@ with open("Data/test_register_data.json", encoding="utf-8") as f:
 
 class TestRegister:
 
+    @pytest.mark.order(1)
     @pytest.mark.smoke
     def test_register_ok(self, driver):
         logger.info("Ejecutando registro válido")
