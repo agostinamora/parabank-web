@@ -1,6 +1,6 @@
 import pytest
 from Pages.login_page import LoginPage
-from Data.test_data import TestData
+from Data.test_login_data import TestData
 from Utilities.logger import get_logger
 
 logger = get_logger("TestLogin")
@@ -17,10 +17,10 @@ class TestLogin:
         assert login.is_login_successful()
 
     @pytest.mark.negative
-    def test_login_invalid_password(self, driver):
+    def test_login_invalid(self, driver):
         logger.info("Ejecutando login con usuario inválido")
         login = LoginPage(driver)
         login.load_page()
-        login.login(TestData.invalid_user, TestData.valid_password)
+        login.login(TestData.blank_user, TestData.valid_password)
         assert login.is_login_failed()
         

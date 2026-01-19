@@ -1,0 +1,6 @@
+2026-01-19 11:26:21,180 [INFO] TestRegister: Ejecutando registro válido
+2026-01-19 11:26:21,181 [INFO] LoginPage: Entrando a la página principal
+2026-01-19 11:26:25,661 [INFO] LoginPage: Registro de cuenta
+2026-01-19 11:26:26,543 [INFO] LoginPage: Página de registro abierta
+2026-01-19 11:26:26,543 [INFO] RegisterPage: Completando el form
+2026-01-19 11:26:28,163 [INFO] RegisterPage: Registro exitoso: Your account was created successfully. You are now logged in.

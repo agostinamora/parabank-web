@@ -1,0 +1,4 @@
+2026-01-19 09:54:46,172 [INFO] TestLogin: Ejecutando login con usuario inválido
+2026-01-19 09:54:46,173 [INFO] LoginPage: Entrando a la página principal
+2026-01-19 09:54:48,585 [INFO] LoginPage: Login con usuario: 
+2026-01-19 09:54:49,612 [INFO] LoginPage: Login no exitoso: mensaje de error visible

@@ -26,11 +26,22 @@ class LoginPage(BasePage):
     def is_login_failed(self):
         visible = self.is_element_visible(LoginLocators.error_text)
         if visible:
-            self.logger.info("Login exitoso: mensaje de error visible")
+            self.logger.info("Login no exitoso: mensaje de error visible")
         else:
             message = self.get_text(LoginLocators.random_error_message)
             self.logger.warning(f"Mensaje de error NO visible, aparece este mensaje: {message}" )
         return visible
 
+    def register(self):
+        self.logger.info(f"Registro de cuenta")
+        self.click(LoginLocators.register_button)
         
+    def is_register_succesfully(self):
+        visible = self.is_element_visible(LoginLocators.register_title_signing)
+        if visible:
+            self.logger.info("Página de registro abierta")
+        else:
+            message = self.get_text(LoginLocators.random_error_message)
+            self.logger.warning(f"Página de registro no se pudo abrir, aparece este mensaje: {message}" )
+        return visible
 

@@ -1,0 +1,4 @@
+2026-01-19 09:51:49,577 [INFO] TestLogin: Ejecutando login válido
+2026-01-19 09:51:49,578 [INFO] LoginPage: Entrando a la página principal
+2026-01-19 09:51:54,381 [INFO] LoginPage: Login con usuario: usertest
+2026-01-19 09:51:58,280 [WARNING] LoginPage: Mensaje de bienvenida NO visible, aparece este mensaje: The username and password could not be verified.

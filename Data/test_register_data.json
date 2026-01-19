@@ -1,0 +1,13 @@
+{
+    "first_name" : "usuario",
+    "last_name" : "dummy",
+    "address" : "calle falsa 123",
+    "city" : "buenos aires",
+    "state" : "caba",
+    "zip" : "12345",
+    "phone" : "49224907",
+    "ssn" : "123456789",
+    "username" : "usuaroi12",
+    "password" : "contraseña",
+    "confirm" : "contraseña"
+}

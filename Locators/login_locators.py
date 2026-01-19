@@ -9,6 +9,8 @@ class LoginLocators:
     title_account_overview = (By.XPATH,'//h1[contains(text(),"Accounts Overview")]')
     error_text = (By.XPATH,'//p[contains(text(), "Please enter a username and password.")]')
     random_error_message = (By.XPATH,'//p[@class = "error"]')
+    register_button = (By.XPATH, '//p//a[contains(text(), "Register")]')
+    register_title_signing = (By.XPATH, '//h1[contains(text(), "Signing up is easy!")]')
 
     
     
